@@ -26,18 +26,7 @@ public class Autorizacion {
     static Iterator <Status>it = twits.iterator();
     
     
-    
-       public static void conexion(){
-        
-        cb = new ConfigurationBuilder();
-        cb.setDebugEnabled(true);
-        cb.setOAuthConsumerKey("LJRSaVAV5sWvjTJvqBvaBWWBn");
-        cb.setOAuthConsumerSecret("muew26O2iSt2ntubwl4w8Cril1ut2WU0cpQM00MTye8Oalip6b");
-        cb.setOAuthAccessToken("843736020730437633-DPFZ7jsIwUQLqjUgctCqzOpqibspEtt");
-        cb.setOAuthAccessTokenSecret("M2H9jboQOBK0bhd4M3r4YQWFsxvBpZ2nQz0tGbjtlfn02");
-        TwitterFactory tf = new TwitterFactory(cb.build());
-        twitter = tf.getInstance();
-    }
+   
        
        /**
  * Usado para recoger en una colección la linea temporal del twitter del usuario.
