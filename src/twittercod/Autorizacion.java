@@ -18,7 +18,7 @@ import twitter4j.conf.ConfigurationBuilder;
 public class Autorizacion {
     
     
-    static ConfigurationBuilder cb;
+    
     static Twitter twitter =TwitterFactory.getSingleton(); //adición del singleton
     static Status status;
     static DirectMessage message;
